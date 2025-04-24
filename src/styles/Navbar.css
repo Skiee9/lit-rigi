@@ -58,3 +58,24 @@
     background: linear-gradient(to bottom right, rgb(0, 0, 0),transparent);
     z-index: -1;
   }
+
+  /* media queries */
+  /* @media (min-width: 768px) {
+    .logo {
+      width: 140px;
+      text-align: center;
+    }
+  }
+  
+  */
+  @media screen and (max-width: 768px) {
+    .navbar {
+      flex-direction: column;
+      padding: 1rem;
+      text-align: center;
+    }
+  
+    .navbar-logo .logo {
+      height: 40px;
+    }
+  }

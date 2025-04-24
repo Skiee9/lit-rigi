@@ -6,7 +6,7 @@
   
   .cta-title {
     color: #fff;
-    font-size: 2.5rem;
+    font-size: 3rem;
     font-weight: bold;
   }
   
@@ -20,4 +20,13 @@
     font-size: 1.75rem;
     border-radius: 7px;
   }
+  /* media queries */
+  @media (min-width: 768px) {
+    .cta-title {
+      font-size: 2rem;
+    }
   
+    .cta-button {
+      font-size: 1.2rem;
+    }
+  }
