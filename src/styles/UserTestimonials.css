@@ -1,0 +1,22 @@
+.testimonials {
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .testimonials__heading {
+    margin-bottom: 1rem;
+  }
+  
+  .testimonials__container {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+  }
+  
+  .testimonial {
+    background-color: #1a1a1a;
+    padding: 1rem;
+    border-radius: 8px;
+    width: 300px;
+  }
+  

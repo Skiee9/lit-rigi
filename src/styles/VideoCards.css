@@ -1,0 +1,28 @@
+
+  
+  .video-cards-heading {
+    text-align: center;
+    font-size: 3rem;
+    color: aliceblue;
+  }
+  
+
+  
+  .video-cards{
+    min-width: 200px;
+    padding: 2rem;
+    background-color: #1a1a1af6;
+    backdrop-filter: blur(8px);
+    
+  }
+  .card-img {
+    padding: 8px 0;
+    margin-top:12px;
+    max-width: 75%;
+    height: auto;
+   
+    border-radius: 10px;
+    object-fit: cover;
+   
+
+  }

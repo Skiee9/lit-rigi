@@ -1,4 +1,5 @@
 import React from 'react';
+import '../styles/CTASection.css'
 
 const CTASection = () => {
   return (

@@ -9,8 +9,11 @@ import Footer from './components/Footer'
 const App = () => {
   return (
     <>
-      <Navbar/>
-      <HeroSection/>
+    <div className='background-image'>
+    <Navbar/>
+    <HeroSection/>
+    </div>
+     
       <VideoCards/>
       <UserTestimonials/>
       <CTASection/>
